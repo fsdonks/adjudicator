@@ -1,0 +1,31 @@
+																									
+Out of Scope SRC					SRC Replacement Candidates												FM Response								
+Branch	Out of Scope SRC	Name	Strength	Reason	Related SRC(s) of Out of Scope SRC	"Related SRC
+Name"	Relation	Quantity	Strength	"Related SRC(s) 
+found in supply or demand file"	5 digit SRC match	"5 digit SRC match 
+Name"	5 digit SRC match Strength	K-surrogate match	"K-surrogate match
+Name"	"K-surrogate match
+Strength"	Delete the out of scope SRC?	Replace out of scope SRC with Related SRC:	"COMPO 1
+Quantity"	"COMPO 2
+Quantity"	"COMPO 3
+Quantity"	Replace out of scope SRC with Custom SRC:	"COMPO 1
+Quantity"	"COMPO 2
+Quantity"	"COMPO 3
+Quantity"
+08	08516RA00	"HQ, MED DET VET SVC SPT"	14	No Supply	08516RB00	FOOD PROC & LAB TM	Sister	1									Yes								
+08	08516RA00	"HQ, MED DET VET SVC SPT"	14	No Supply	08516RC00	VET MED & SURGICAL TM	Sister	1									Yes								
+08	08516RA00	"HQ, MED DET VET SVC SPT"	14	No Supply	08516RD00	VET SVC SPT TM	Sister	1									Yes								
+08	08516RA00	"HQ, MED DET VET SVC SPT"	14	No Supply	08300R000	"MED DET, VET SVC (RECAP)"	Parent		60								Yes								
+14	14537K000	FINANCIAL MGT CNTR	40	No Supply										14537R000	FINANCIAL MGT CNTR	42						14537R100	1	3	4
+47	47110K001	STRYKER BDE COMBAT TM (SBCT) #1	0	No Supply							47112K000	"HHC,  INF BDE (SBCT)"	136					47112K000	1	2	3				
+47	47110K002	STRYKER BDE COMBAT TM (SBCT) #2	0	No Supply							47112K000	"HHC,  INF BDE (SBCT)"	136					47112K000	1	2	3				
+47	47110K003	STRYKER BDE COMBAT TM (SBCT) #3	0	No Supply							47112K000	"HHC,  INF BDE (SBCT)"	136					47112K000	1	2	3				
+47	47110K004	STRYKER BDE COMBAT TM (SBCT) #4	0	No Supply							47112K000	"HHC,  INF BDE (SBCT)"	136					47112K000	1	2	3				
+47	47110K005	STRYKER BDE COMBAT TM (SBCT) #5	0	No Supply							47112K000	"HHC,  INF BDE (SBCT)"	136					47112K000	1	2	3				
+47	47110K006	STRYKER BDE COMBAT TM (SBCT) #6	0	No Supply							47112K000	"HHC,  INF BDE (SBCT)"	136					47112K000	1	2	3				
+40	40500RA00	ARMY SPACE SPT TM	6	No Supply	40810R000	ARMY SPACE SUPPORT CO 	Parent										No	40810R000	1	2	3				
+40	40500RA00	ARMY SPACE SPT TM	6	No Supply	40813R000 	"HEADQUARTERS, ARMY SPACE"	Sister	1									No	40810R000	1	2	3				
+40	40500RA00	ARMY SPACE SPT TM	6	No Supply	40500RA00 	ARMY SPACE SUPPORT TEAM 	Sister	4									No	40810R000	1	2	3				
+40	40500RA00	ARMY SPACE SPT TM	6	No Supply	40500RC00 	COMMERICAL IMAGERY TEAM 	Sister	1									No	40810R000	1	2	3				
+																									
+																									
